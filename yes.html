@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./yes_style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>To my Dearest, Lalove.</strong>
+                        <p>
+
+    This day marks our special day. I wrote this letter to you as my heart overflows with love and joy.  <br>
+
+Every day that I spent by your side feels like a special gift, a treasure that I hold dear. 
+Just with your presence, brings light to my darkest of days, especially your laughter that 
+I find so sweet and cute that everytime I hear it, it brightens my mood. With you, I find joy and comfort. <br>
+
+I know deep within me that you are someone extraordinary, someone who changed my life in the most beautiful ways imaginable. 
+With you, I've discovered a love so pure, a love that fills my heart with warmth and contentment.<br>
+
+On this special day, I wanna say thank you, thank you for being the extraordinary woman that you are – for your 
+kindness, your compassion, and your unwavering love. You are the beating heart of our love story, someone that 
+my heart holds so dear, the person that is so precious to me.<br>
+
+As we celebrate this journey together, I am excited for the adventures that lie ahead, for the memories we 
+have yet to create, and for the love that will continue to grow and bloom with each passing day.<br><br>
+
+Happy monthsary, babiii. Here's to us – to our love and our laughter, may this last a lifetime.<br><br>
+
+    Yours truly, 
+             imo babyy<br><br>
+
+            🌷ฅ(^•ܫ•^)ฅ❣️<br>
+         I love you bebiii
+ 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
